@@ -1,0 +1,19 @@
+{
+  "name": "ganger",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require should --reporter List --check-leaks test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bigfactory/ganger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  }
+}
